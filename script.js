@@ -87,17 +87,3 @@ btnHold.addEventListener('click', function () {
   }
 });
 btnNewGame.addEventListener('click', init);
-// btnNewGame.addEventListener('click', function () {
-//   //Reseting the game
-
-//   //MyAnswer
-//   //   scores[0] = 0;
-//   //   scores[1] = 0;
-//   //   document.getElementById(`score--0`).textContent = scores[0];
-//   //   document.getElementById(`score--1`).textContent = scores[1];
-//   //   currentScore = 0;
-//   //   document.querySelector('#current--0').textContent = currentScore;
-//   //   document.querySelector('#current--1').textContent = currentScore;
-
-//   //Solution
-// });
