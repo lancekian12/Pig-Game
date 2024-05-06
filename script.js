@@ -72,7 +72,6 @@ btnHold.addEventListener('click', function () {
       // Finish the game
       playing = false;
       diceEl.classList.add('hidden');
-
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
@@ -80,7 +79,6 @@ btnHold.addEventListener('click', function () {
         .querySelector(`.player${activePlayer}`)
         .classList.remove('player--active');
     } else {
-      //Switch to the next player
       switchPlayer();
     }
   }
